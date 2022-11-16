@@ -1,1 +1,1 @@
-web: gunicorn testproject.wsgi -b $PORT
+web: gunicorn portfolio.wsgi
