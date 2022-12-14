@@ -7,6 +7,12 @@ app = Flask(__name__, static_folder='./static')
 def index():
     return render_template('index.html')
 
+@app.route('salary-ranges')
+def salary_ranges():
+    return render_template('salary-ranges.html')
+
+
+
 #@app.route('/single', methods=['GET', 'POST'])
 
 if __name__ == "__main__":
