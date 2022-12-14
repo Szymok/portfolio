@@ -11,6 +11,9 @@ def index():
 def salary_ranges():
     return render_template('salary-ranges.html')
 
+@app.route('world-cup-qatar')
+def world_cup_qatar():
+    return render_template('world-cup-qatar.html')
 
 
 #@app.route('/single', methods=['GET', 'POST'])
