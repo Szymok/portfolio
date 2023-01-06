@@ -7,11 +7,11 @@ app = Flask(__name__, static_folder='./static')
 def index():
     return render_template('index.html')
 
-@app.route('salary-ranges')
+@app.route('/salary-ranges')
 def salary_ranges():
     return render_template('salary-ranges.html')
 
-@app.route('world-cup-qatar')
+@app.route('/world-cup-qatar')
 def world_cup_qatar():
     return render_template('world-cup-qatar.html')
 
